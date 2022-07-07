@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AvatarCloudSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AvatarCloudSDK.'
+  s.summary          = 'AvatarCloudSDK_iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    头像云的iOS SDK
                        DESC
 
   s.homepage         = 'https://github.com/45189608@qq.com/AvatarCloudSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '45189608@qq.com' => 'liguibin@shuzijiayuan.com' }
-  s.source           = { :git => 'https://github.com/45189608@qq.com/AvatarCloudSDK.git', :tag => s.version.to_s }
+  s.author           = { 'bj-jrxj' => 'denghua@msn.com' }
+  s.source           = { :git => 'https://github.com/bj-jrxj/AvatarCloud_iOS#avatarcloud_ios', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AvatarCloudSDK/Classes/**/*'
-  
+  # s.source_files = 'AvatarCloudSDK/Classes/**/*'
+    s.vendored_frameworks = "AvatarCloudSDK/Classes/AvatarCloudSDK.framework" //pod库中framework的路径
+
   # s.resource_bundles = {
   #   'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency '', ''
 end

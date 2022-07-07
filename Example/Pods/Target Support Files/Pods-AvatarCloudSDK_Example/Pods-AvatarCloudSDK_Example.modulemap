@@ -1,0 +1,6 @@
+framework module Pods_AvatarCloudSDK_Example {
+  umbrella header "Pods-AvatarCloudSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
