@@ -1,1 +1,0 @@
-//AvatarCloud_iOS

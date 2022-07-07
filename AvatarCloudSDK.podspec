@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bj-jrxj' => 'denghua@msn.com' }
-  s.source           = { :git => 'https://github.com/bj-jrxj/AvatarCloud_iOS#avatarcloud_ios', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bj-jrxj/AvatarCloud_iOS.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
 # s.source_files = 'AvatarCloudSDK/Classes/**/*'
   s.vendored_frameworks = "AvatarCloudSDK/Classes/AvatarCloudSDK.framework"
 
-# s.resource_bundles = {
-#   'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/*.png']
-# }
+  s.resource_bundles = {
+    'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/logo.png']
+  }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
