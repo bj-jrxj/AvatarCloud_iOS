@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     头像云的iOS SDK
                        DESC
 
-  s.homepage         = 'https://github.com/45189608@qq.com/AvatarCloudSDK'
+  s.homepage         = 'https://github.com/bj-jrxj/AvatarCloud_iOS'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bj-jrxj' => 'denghua@msn.com' }
