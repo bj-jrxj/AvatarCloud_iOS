@@ -22,22 +22,22 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/45189608@qq.com/AvatarCloudSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bj-jrxj' => 'denghua@msn.com' }
   s.source           = { :git => 'https://github.com/bj-jrxj/AvatarCloud_iOS#avatarcloud_ios', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'AvatarCloudSDK/Classes/**/*'
-    s.vendored_frameworks = "AvatarCloudSDK/Classes/AvatarCloudSDK.framework" //pod库中framework的路径
+# s.source_files = 'AvatarCloudSDK/Classes/**/*'
+  s.vendored_frameworks = "AvatarCloudSDK/Classes/AvatarCloudSDK.framework"
 
-  # s.resource_bundles = {
-  #   'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/*.png']
-  # }
+# s.resource_bundles = {
+#   'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/*.png']
+# }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency '', ''
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency '', ''
 end
