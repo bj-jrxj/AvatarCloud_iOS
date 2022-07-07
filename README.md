@@ -22,7 +22,7 @@ pod 'AvatarCloudSDK'
 
 ## Author
 
-45189608@qq.com, liguibin@shuzijiayuan.com
+bj-jrxj
 
 ## License
 
