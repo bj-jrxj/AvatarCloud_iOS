@@ -11,7 +11,7 @@
 
 |SDK|下载地址|集成指引|
 |-|-------:|:------:|
-|iOS|https://github.com/bj-jrxj/AvatarCloud_iOS|[pod集成](####SDK集成)<br>[手动集成](######手动集成)|
+|iOS|https://github.com/bj-jrxj/AvatarCloud_iOS|[pod集成](#cocoaPods集成)<br>[手动集成](#手动集成)|
 |Adnroid|https://github.com/bj-jrxj/AvatarCloud_Android|常规集成|
 
 
