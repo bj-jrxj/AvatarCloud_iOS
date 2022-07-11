@@ -33,7 +33,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'App' do
 pod 'AvatarCloudSDK'
 end
-
 ```
 
 ###### 手动集成
@@ -51,7 +50,6 @@ end
 #import <AvatarCloudSDK/AvatarCloudSDK.h>
 	
 [AvatarCloudSDKManager initWithClient_id:@"clientId" client_secret:@"clientSecret"];
-
 ```
 
 * 调用
@@ -62,10 +60,10 @@ end
 //controller:跳转界面容器。 animated:跳转动画
 [[AvatarCloudSDKManager sharedInstance] initWithParentController:self animated:YES];
 
-//设置sdk内部界面头像圆角尺寸
+//设置sdk内部头像圆角尺寸
 [AvatarCloudSDKManager sharedInstance].cornerRadius = 24;
 
-//默认 NO 设置YES时，cornerRadius无效
+//默认NO，设置YES时，cornerRadius无效
 [AvatarCloudSDKManager sharedInstance].isCircle = NO;
 
 //返回图片尺寸大小 默认300
