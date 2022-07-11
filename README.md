@@ -78,7 +78,7 @@ end
 
 //获取生成的图片，返回对象类型NSData
 [[AvatarCloudSDKManager sharedInstance] getImageData:^(NSData * _Nonnull imageData) {
-	weakSelf.avatarData = imageData;
+    weakSelf.avatarView.image = [UIImage imageWithData:imageData];
 }];
 ```
 
