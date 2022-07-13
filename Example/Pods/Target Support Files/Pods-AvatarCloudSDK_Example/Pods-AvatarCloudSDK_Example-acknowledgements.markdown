@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AvatarCloudSDK
 
-Copyright (c) 2022 bj-jrxj <bj-jrxj>
+Copyright (c) 2022 45189608@qq.com <liguibin@shuzijiayuan.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
