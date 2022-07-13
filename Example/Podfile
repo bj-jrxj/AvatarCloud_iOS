@@ -3,11 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'AvatarCloudSDK_Example' do
-  pod 'AvatarCloudSDK', :path => '../'
+  pod 'AvatarCloudSDK'
 
-  target 'AvatarCloudSDK_Tests' do
-    inherit! :search_paths
-
+ 
     
-  end
 end

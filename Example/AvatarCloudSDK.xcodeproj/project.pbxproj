@@ -23,7 +23,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		762F149649BCF931061B9F52 /* Pods_AvatarCloudSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C20FA556625CECE633130F /* Pods_AvatarCloudSDK_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B09AAAB6B50C4B48E91A75E5 /* Pods_AvatarCloudSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC870C8FB1AC98CD45A350C9 /* Pods_AvatarCloudSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 /* Begin PBXFileReference section */
 		059CD2A82B1D0730382FC7CA /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AvatarCloudSDK.podspec; path = ../AvatarCloudSDK.podspec; sourceTree = "<group>"; };
 		146D1F9D0D7F2D6221C43C45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		358C7266A3A389F75313288A /* Pods-AvatarCloudSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		486A7169099E3A895947E7FE /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EFAA02054A4D249E337D24A /* Pods-AvatarCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AvatarCloudSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarCloudSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +63,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B759D272C54E6F2EFFF06FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF36F8D374C1CA2A86A9B640 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC870C8FB1AC98CD45A350C9 /* Pods_AvatarCloudSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarCloudSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B09AAAB6B50C4B48E91A75E5 /* Pods_AvatarCloudSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +119,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				60C20FA556625CECE633130F /* Pods_AvatarCloudSDK_Example.framework */,
-				EC870C8FB1AC98CD45A350C9 /* Pods_AvatarCloudSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +184,6 @@
 			children = (
 				CF36F8D374C1CA2A86A9B640 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */,
 				4EFAA02054A4D249E337D24A /* Pods-AvatarCloudSDK_Example.release.xcconfig */,
-				486A7169099E3A895947E7FE /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */,
-				358C7266A3A389F75313288A /* Pods-AvatarCloudSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -208,7 +200,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8E23A6D459AAEBDDC0E3294A /* [CP] Embed Pods Frameworks */,
+				C81CFFB7B61660050CCCA563 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AvatarCloudSDK_Tests" */;
 			buildPhases = (
-				4AC2357DAB232474F5A9CD78 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,46 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4AC2357DAB232474F5A9CD78 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AvatarCloudSDK_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E23A6D459AAEBDDC0E3294A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AvatarCloudSDK/AvatarCloudSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvatarCloudSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B4C03A81B6B3C59B690D44D8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +306,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81CFFB7B61660050CCCA563 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AvatarCloudSDK/AvatarCloudSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AvatarCloudSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -523,7 +492,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 486A7169099E3A895947E7FE /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +516,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 358C7266A3A389F75313288A /* Pods-AvatarCloudSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

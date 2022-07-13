@@ -6,70 +6,62 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		410E84A5CB667566F10523AC38AE42AB /* AvatarCloudSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FD9E3002F5883DFDAF84293D040DD33A /* Build configuration list for PBXAggregateTarget "AvatarCloudSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0E29EC6B5FB342573896425DE50BF681 /* PBXTargetDependency */,
+			);
+			name = AvatarCloudSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1FFE5511ABF64CF820186E3C352D1BAF /* Pods-AvatarCloudSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4928949B46BC8F86B47A61D7215787A7 /* Pods-AvatarCloudSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35AE8D19E2E70671D33A427C1A546F8D /* AvatarCloudSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DEDCDB230BFC9E977FD16057CFF615 /* AvatarCloudSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		413F3FFF46D336754C83D401E75C1EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		545B4AE0D4DC9A1C2E8A75736BA97210 /* Pods-AvatarCloudSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274F996A589D6BDEB2BF23EE72474B3 /* Pods-AvatarCloudSDK_Tests-dummy.m */; };
-		5B44A1F4FD06CFD889DEAC7FF71E3EF9 /* Pods-AvatarCloudSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37384A1ACF7EDD0215F4184423ABAD /* Pods-AvatarCloudSDK_Example-dummy.m */; };
-		5CC6746901B75E4BC5C2D32B85E4B8AD /* Pods-AvatarCloudSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9115FC03D61C6F6C8804685FFC650D9A /* Pods-AvatarCloudSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E06CAF016B1DF739D604ADE0662F5FD /* AvatarCloudSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE5281E05A3EE0FD72E003920AAE1F /* AvatarCloudSDK-dummy.m */; };
-		BF418684C65404DF52276DA37296F930 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE820FF8A0BD74BD08352C3D8DF5A5 /* ReplaceMe.m */; };
+		11DD3CDB30E54B5355B4E0B9B295A3AD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0F9FD9999560DC2E6FFADDA88EE4BB /* logo.png */; };
+		1FFE5511ABF64CF820186E3C352D1BAF /* Pods-AvatarCloudSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5B1E94C9C28344EC7028069A324DE4 /* Pods-AvatarCloudSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B44A1F4FD06CFD889DEAC7FF71E3EF9 /* Pods-AvatarCloudSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD99BF4F5CE0FA688EE7BC376545EF /* Pods-AvatarCloudSDK_Example-dummy.m */; };
 		D07F06E35AC1719FDEF12B5DF9E89FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EC7AAADEA7FB83DD8C2A14D1195500AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9E13ABDAC4389B9F56C6D046CA5807BE /* PBXContainerItemProxy */ = {
+		1A787CE6565B31EDDEAF3931CDECB656 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 410E84A5CB667566F10523AC38AE42AB;
 			remoteInfo = AvatarCloudSDK;
 		};
-		A3626CD4780A91CEC901F8C7896D63F3 /* PBXContainerItemProxy */ = {
+		F5E436A4517AB5F16F8DC7A407053E3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AB6F84276C5DA6521969FCC0D369B72;
-			remoteInfo = "Pods-AvatarCloudSDK_Example";
+			remoteGlobalIDString = D10B04E78A2E634BA649B577F60F9272;
+			remoteInfo = "AvatarCloudSDK-AvatarCloudSDK";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AE5281E05A3EE0FD72E003920AAE1F /* AvatarCloudSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvatarCloudSDK-dummy.m"; sourceTree = "<group>"; };
-		1B4EB65AAA5DA72CFBE111F69D6D1E4D /* Pods-AvatarCloudSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarCloudSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BF02304438A02C2B883444974EDAB2D /* AvatarCloudSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarCloudSDK.debug.xcconfig; sourceTree = "<group>"; };
-		1F1C40E67297CF31DEADD4F460BDCCAA /* Pods-AvatarCloudSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarCloudSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2274F996A589D6BDEB2BF23EE72474B3 /* Pods-AvatarCloudSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarCloudSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		3397A668BB4FC38028DBB00C2028882C /* AvatarCloudSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvatarCloudSDK.modulemap; sourceTree = "<group>"; };
-		3B37384A1ACF7EDD0215F4184423ABAD /* Pods-AvatarCloudSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarCloudSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		3BBE820FF8A0BD74BD08352C3D8DF5A5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AvatarCloudSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		487C29D4C8A65324B419565681EE5015 /* AvatarCloudSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvatarCloudSDK-Info.plist"; sourceTree = "<group>"; };
-		4928949B46BC8F86B47A61D7215787A7 /* Pods-AvatarCloudSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarCloudSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		494083428FCF06D44A77B74B545E1226 /* AvatarCloudSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvatarCloudSDK-prefix.pch"; sourceTree = "<group>"; };
+		0ADC596C34BE09EC87A150C787C0EEA9 /* Pods-AvatarCloudSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A849BA5E1D92C08D0509299A1FC7ACD /* AvatarCloudSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarCloudSDK.release.xcconfig; sourceTree = "<group>"; };
+		1E0F9FD9999560DC2E6FFADDA88EE4BB /* logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = logo.png; path = AvatarCloudSDK/Assets/logo.png; sourceTree = "<group>"; };
+		2074329C1735ADDA0CE5F685058E0F76 /* Pods-AvatarCloudSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvatarCloudSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		228A2C78F8F8BE326FEA0DC4E771CFE8 /* Pods-AvatarCloudSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarCloudSDK_Example.modulemap"; sourceTree = "<group>"; };
+		2EDD99BF4F5CE0FA688EE7BC376545EF /* Pods-AvatarCloudSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvatarCloudSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		5D77A6728CF9EC5C06CBFD834A6F7AF6 /* Pods-AvatarCloudSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AvatarCloudSDK_Example"; path = Pods_AvatarCloudSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FD28264FE90C3292FE41421AEF21CD0 /* AvatarCloudSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvatarCloudSDK; path = AvatarCloudSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64DEDCDB230BFC9E977FD16057CFF615 /* AvatarCloudSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvatarCloudSDK-umbrella.h"; sourceTree = "<group>"; };
-		668025CBD3F9B06022E0EB95B8F418D9 /* Pods-AvatarCloudSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		67D9ED525ED0672F14F8A340DB4F6964 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		67FCC9E8F433BCF6BDF2630A48A24992 /* Pods-AvatarCloudSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarCloudSDK_Example.modulemap"; sourceTree = "<group>"; };
-		688D6A11BFD14955AB6C6D6F8411C3F2 /* Pods-AvatarCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		69253524592DC0F063E46FBCA46F3C71 /* Pods-AvatarCloudSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvatarCloudSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		71329BE43A9676222E39CBC9FBCC0885 /* Pods-AvatarCloudSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvatarCloudSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		754F66E762F3C39691DDCDEEAB7AAE0F /* Pods-AvatarCloudSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		7F8B172E124583F4BCBE39BC3F1D74A0 /* AvatarCloudSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarCloudSDK.release.xcconfig; sourceTree = "<group>"; };
-		9115FC03D61C6F6C8804685FFC650D9A /* Pods-AvatarCloudSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarCloudSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		916AEF95A873D2F75B087EB37E30F55A /* Pods-AvatarCloudSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvatarCloudSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE714A13259F3E1C0B1AD6D45A15CF00 /* Pods-AvatarCloudSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AvatarCloudSDK_Tests"; path = Pods_AvatarCloudSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC6B72039910B900C18CEC784572429F /* Pods-AvatarCloudSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCB81228410684A1691DE90DAC494B47 /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF6A048206EF91B59487CCDDC53B5CEF /* Pods-AvatarCloudSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		CBEE5621FC9DA7AEA11ACB743BF4B744 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EBABCE8AB9D72A8AD8616D629C10E80D /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AvatarCloudSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		F74199C74EAA52284040C8BBD6C97DEE /* Pods-AvatarCloudSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FB222464FDEE9D28649EBA332A89A39D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C58AE545F27A36F8241C9D9A87F32AD /* ResourceBundle-AvatarCloudSDK-AvatarCloudSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AvatarCloudSDK-AvatarCloudSDK-Info.plist"; sourceTree = "<group>"; };
+		8C0756E9349163D6458C6381C5483BFC /* Pods-AvatarCloudSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvatarCloudSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		8D5B1E94C9C28344EC7028069A324DE4 /* Pods-AvatarCloudSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvatarCloudSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8EC9575768C7DEB69FA8BFD59CCE6933 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5E3C2C1664EC9155DE56FA9EE0C4C7 /* AvatarCloudSDK-AvatarCloudSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AvatarCloudSDK-AvatarCloudSDK"; path = AvatarCloudSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4AFA1061D47502FE4F9901D40E167EF /* Pods-AvatarCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvatarCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D624F14A32B3E840ECD79596CE4202CA /* AvatarCloudSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvatarCloudSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E80E2A2A2F67B6A97099BCC305064507 /* AvatarCloudSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AvatarCloudSDK.framework; path = AvatarCloudSDK/Classes/AvatarCloudSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,51 +73,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		790F53D9603234E7BDC61763B3557D12 /* Frameworks */ = {
+		9BEE19C24CCAC4B188DB6E8FFA69D26C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413F3FFF46D336754C83D401E75C1EBE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF0EC1221E9E1C347C4A85C2FDDC6B44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC7AAADEA7FB83DD8C2A14D1195500AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38CDB471065B127A98F5536489348BE4 /* Pod */ = {
+		03FD0EE26AF658456D3F0CCF67DD1719 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EBABCE8AB9D72A8AD8616D629C10E80D /* AvatarCloudSDK.podspec */,
-				CBEE5621FC9DA7AEA11ACB743BF4B744 /* LICENSE */,
-				FB222464FDEE9D28649EBA332A89A39D /* README.md */,
+				1E0F9FD9999560DC2E6FFADDA88EE4BB /* logo.png */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		391FAAED64FE78F02D022211D1D3776A /* Development Pods */ = {
+		232035AA460F594FC210493DB5E47ACF /* AvatarCloudSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A94A85A689DA38D73653D01ECB703899 /* AvatarCloudSDK */,
+				BD255FE78FD22C704B8571EC09BF2DC6 /* Frameworks */,
+				03FD0EE26AF658456D3F0CCF67DD1719 /* Resources */,
+				F39B4CA559567719CEA51AAFF49A29D6 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = AvatarCloudSDK;
+			path = AvatarCloudSDK;
 			sourceTree = "<group>";
 		};
-		47F40E04798FD54D4BF8D4630C4B48DB /* Products */ = {
+		549C4C3D57DB0CB604EDAECF0B88A804 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5FD28264FE90C3292FE41421AEF21CD0 /* AvatarCloudSDK */,
-				5D77A6728CF9EC5C06CBFD834A6F7AF6 /* Pods-AvatarCloudSDK_Example */,
-				AE714A13259F3E1C0B1AD6D45A15CF00 /* Pods-AvatarCloudSDK_Tests */,
+				B4DCF051E1C0181B392365BCD7B2E650 /* Pods-AvatarCloudSDK_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -136,82 +118,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72844C15BD39DB4723174AAACBDC193B /* Pods-AvatarCloudSDK_Example */ = {
+		B4DCF051E1C0181B392365BCD7B2E650 /* Pods-AvatarCloudSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				67FCC9E8F433BCF6BDF2630A48A24992 /* Pods-AvatarCloudSDK_Example.modulemap */,
-				1B4EB65AAA5DA72CFBE111F69D6D1E4D /* Pods-AvatarCloudSDK_Example-acknowledgements.markdown */,
-				668025CBD3F9B06022E0EB95B8F418D9 /* Pods-AvatarCloudSDK_Example-acknowledgements.plist */,
-				3B37384A1ACF7EDD0215F4184423ABAD /* Pods-AvatarCloudSDK_Example-dummy.m */,
-				916AEF95A873D2F75B087EB37E30F55A /* Pods-AvatarCloudSDK_Example-frameworks.sh */,
-				754F66E762F3C39691DDCDEEAB7AAE0F /* Pods-AvatarCloudSDK_Example-Info.plist */,
-				4928949B46BC8F86B47A61D7215787A7 /* Pods-AvatarCloudSDK_Example-umbrella.h */,
-				67D9ED525ED0672F14F8A340DB4F6964 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */,
-				688D6A11BFD14955AB6C6D6F8411C3F2 /* Pods-AvatarCloudSDK_Example.release.xcconfig */,
+				228A2C78F8F8BE326FEA0DC4E771CFE8 /* Pods-AvatarCloudSDK_Example.modulemap */,
+				71329BE43A9676222E39CBC9FBCC0885 /* Pods-AvatarCloudSDK_Example-acknowledgements.markdown */,
+				0ADC596C34BE09EC87A150C787C0EEA9 /* Pods-AvatarCloudSDK_Example-acknowledgements.plist */,
+				2EDD99BF4F5CE0FA688EE7BC376545EF /* Pods-AvatarCloudSDK_Example-dummy.m */,
+				8C0756E9349163D6458C6381C5483BFC /* Pods-AvatarCloudSDK_Example-Info.plist */,
+				2074329C1735ADDA0CE5F685058E0F76 /* Pods-AvatarCloudSDK_Example-resources.sh */,
+				8D5B1E94C9C28344EC7028069A324DE4 /* Pods-AvatarCloudSDK_Example-umbrella.h */,
+				8EC9575768C7DEB69FA8BFD59CCE6933 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */,
+				B4AFA1061D47502FE4F9901D40E167EF /* Pods-AvatarCloudSDK_Example.release.xcconfig */,
 			);
 			name = "Pods-AvatarCloudSDK_Example";
 			path = "Target Support Files/Pods-AvatarCloudSDK_Example";
 			sourceTree = "<group>";
 		};
-		7A79A8DFFEDB42F3EE8AA5BCBFF2C9CD /* Targets Support Files */ = {
+		BD255FE78FD22C704B8571EC09BF2DC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72844C15BD39DB4723174AAACBDC193B /* Pods-AvatarCloudSDK_Example */,
-				CF0C7F1751CBE11CFAA75618D74830D8 /* Pods-AvatarCloudSDK_Tests */,
+				E80E2A2A2F67B6A97099BCC305064507 /* AvatarCloudSDK.framework */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		99E0D64EA7DD93F138D6033F6ECEAC85 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3397A668BB4FC38028DBB00C2028882C /* AvatarCloudSDK.modulemap */,
-				01AE5281E05A3EE0FD72E003920AAE1F /* AvatarCloudSDK-dummy.m */,
-				487C29D4C8A65324B419565681EE5015 /* AvatarCloudSDK-Info.plist */,
-				494083428FCF06D44A77B74B545E1226 /* AvatarCloudSDK-prefix.pch */,
-				64DEDCDB230BFC9E977FD16057CFF615 /* AvatarCloudSDK-umbrella.h */,
-				1BF02304438A02C2B883444974EDAB2D /* AvatarCloudSDK.debug.xcconfig */,
-				7F8B172E124583F4BCBE39BC3F1D74A0 /* AvatarCloudSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AvatarCloudSDK";
-			sourceTree = "<group>";
-		};
-		A94A85A689DA38D73653D01ECB703899 /* AvatarCloudSDK */ = {
-			isa = PBXGroup;
-			children = (
-				3BBE820FF8A0BD74BD08352C3D8DF5A5 /* ReplaceMe.m */,
-				38CDB471065B127A98F5536489348BE4 /* Pod */,
-				99E0D64EA7DD93F138D6033F6ECEAC85 /* Support Files */,
-			);
-			name = AvatarCloudSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CF0C7F1751CBE11CFAA75618D74830D8 /* Pods-AvatarCloudSDK_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				69253524592DC0F063E46FBCA46F3C71 /* Pods-AvatarCloudSDK_Tests.modulemap */,
-				1F1C40E67297CF31DEADD4F460BDCCAA /* Pods-AvatarCloudSDK_Tests-acknowledgements.markdown */,
-				BC6B72039910B900C18CEC784572429F /* Pods-AvatarCloudSDK_Tests-acknowledgements.plist */,
-				2274F996A589D6BDEB2BF23EE72474B3 /* Pods-AvatarCloudSDK_Tests-dummy.m */,
-				BF6A048206EF91B59487CCDDC53B5CEF /* Pods-AvatarCloudSDK_Tests-Info.plist */,
-				9115FC03D61C6F6C8804685FFC650D9A /* Pods-AvatarCloudSDK_Tests-umbrella.h */,
-				BCB81228410684A1691DE90DAC494B47 /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */,
-				F74199C74EAA52284040C8BBD6C97DEE /* Pods-AvatarCloudSDK_Tests.release.xcconfig */,
-			);
-			name = "Pods-AvatarCloudSDK_Tests";
-			path = "Target Support Files/Pods-AvatarCloudSDK_Tests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				391FAAED64FE78F02D022211D1D3776A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				47F40E04798FD54D4BF8D4630C4B48DB /* Products */,
-				7A79A8DFFEDB42F3EE8AA5BCBFF2C9CD /* Targets Support Files */,
+				D3FAD204E855C8C43760A0B4E22D3068 /* Pods */,
+				EA2972C438D5C5115B77E17C84536FE4 /* Products */,
+				549C4C3D57DB0CB604EDAECF0B88A804 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,25 +162,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3FAD204E855C8C43760A0B4E22D3068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				232035AA460F594FC210493DB5E47ACF /* AvatarCloudSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA2972C438D5C5115B77E17C84536FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5E3C2C1664EC9155DE56FA9EE0C4C7 /* AvatarCloudSDK-AvatarCloudSDK */,
+				5D77A6728CF9EC5C06CBFD834A6F7AF6 /* Pods-AvatarCloudSDK_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39B4CA559567719CEA51AAFF49A29D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D624F14A32B3E840ECD79596CE4202CA /* AvatarCloudSDK.debug.xcconfig */,
+				1A849BA5E1D92C08D0509299A1FC7ACD /* AvatarCloudSDK.release.xcconfig */,
+				7C58AE545F27A36F8241C9D9A87F32AD /* ResourceBundle-AvatarCloudSDK-AvatarCloudSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AvatarCloudSDK";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		70D12704FCDF377A4E0E5EA3DBE8FEFF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CC6746901B75E4BC5C2D32B85E4B8AD /* Pods-AvatarCloudSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C99731AC74C20BCBEC7ADC7FB854288 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35AE8D19E2E70671D33A427C1A546F8D /* AvatarCloudSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C7D9F56A8DB691F5447682D9100317AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,25 +204,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15DF5C25D009AE559B751176336A5438 /* Pods-AvatarCloudSDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8DB62B38EBED25AE87AD00EBD419A38 /* Build configuration list for PBXNativeTarget "Pods-AvatarCloudSDK_Tests" */;
-			buildPhases = (
-				70D12704FCDF377A4E0E5EA3DBE8FEFF /* Headers */,
-				35741E278CA225C124C4832B5E75716A /* Sources */,
-				790F53D9603234E7BDC61763B3557D12 /* Frameworks */,
-				7764E1DCE8BE24D3FDBCB6F77BB1BF2E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				215946622CDC70E3A272CE8D1851F266 /* PBXTargetDependency */,
-			);
-			name = "Pods-AvatarCloudSDK_Tests";
-			productName = Pods_AvatarCloudSDK_Tests;
-			productReference = AE714A13259F3E1C0B1AD6D45A15CF00 /* Pods-AvatarCloudSDK_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 		2AB6F84276C5DA6521969FCC0D369B72 /* Pods-AvatarCloudSDK_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC363B8D64AFF52A4FAC286F94E6198F /* Build configuration list for PBXNativeTarget "Pods-AvatarCloudSDK_Example" */;
@@ -284,30 +216,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				E46AC0652177FF21A332C5BE7BF294F4 /* PBXTargetDependency */,
+				8B41CD8D0D68886F96B95EF9141C1D70 /* PBXTargetDependency */,
 			);
 			name = "Pods-AvatarCloudSDK_Example";
 			productName = Pods_AvatarCloudSDK_Example;
 			productReference = 5D77A6728CF9EC5C06CBFD834A6F7AF6 /* Pods-AvatarCloudSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		410E84A5CB667566F10523AC38AE42AB /* AvatarCloudSDK */ = {
+		D10B04E78A2E634BA649B577F60F9272 /* AvatarCloudSDK-AvatarCloudSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7666FF7891C9DB4E7F348A621F807E60 /* Build configuration list for PBXNativeTarget "AvatarCloudSDK" */;
+			buildConfigurationList = BE78C1040DD8386ACBA9E63C27221A58 /* Build configuration list for PBXNativeTarget "AvatarCloudSDK-AvatarCloudSDK" */;
 			buildPhases = (
-				8C99731AC74C20BCBEC7ADC7FB854288 /* Headers */,
-				6C04DFE7E0478F72C9DECBA0FC7651F9 /* Sources */,
-				EF0EC1221E9E1C347C4A85C2FDDC6B44 /* Frameworks */,
-				DE3ACC8858C0AC7E16B452DEF4D5AB2A /* Resources */,
+				50E46D2DBC3AF2EC1B6DEC1713F9042E /* Sources */,
+				9BEE19C24CCAC4B188DB6E8FFA69D26C /* Frameworks */,
+				F53A3BAE0644E9DF7809BEF86A1F66BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AvatarCloudSDK;
+			name = "AvatarCloudSDK-AvatarCloudSDK";
 			productName = AvatarCloudSDK;
-			productReference = 5FD28264FE90C3292FE41421AEF21CD0 /* AvatarCloudSDK */;
-			productType = "com.apple.product-type.framework";
+			productReference = 9C5E3C2C1664EC9155DE56FA9EE0C4C7 /* AvatarCloudSDK-AvatarCloudSDK */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -327,32 +258,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 47F40E04798FD54D4BF8D4630C4B48DB /* Products */;
+			productRefGroup = EA2972C438D5C5115B77E17C84536FE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				410E84A5CB667566F10523AC38AE42AB /* AvatarCloudSDK */,
+				D10B04E78A2E634BA649B577F60F9272 /* AvatarCloudSDK-AvatarCloudSDK */,
 				2AB6F84276C5DA6521969FCC0D369B72 /* Pods-AvatarCloudSDK_Example */,
-				15DF5C25D009AE559B751176336A5438 /* Pods-AvatarCloudSDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7764E1DCE8BE24D3FDBCB6F77BB1BF2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE3ACC8858C0AC7E16B452DEF4D5AB2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ED661B05CDD41791B43FD144E746DD27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,14 +277,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F53A3BAE0644E9DF7809BEF86A1F66BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DD3CDB30E54B5355B4E0B9B295A3AD /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35741E278CA225C124C4832B5E75716A /* Sources */ = {
+		50E46D2DBC3AF2EC1B6DEC1713F9042E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545B4AE0D4DC9A1C2E8A75736BA97210 /* Pods-AvatarCloudSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,67 +303,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C04DFE7E0478F72C9DECBA0FC7651F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E06CAF016B1DF739D604ADE0662F5FD /* AvatarCloudSDK-dummy.m in Sources */,
-				BF418684C65404DF52276DA37296F930 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		215946622CDC70E3A272CE8D1851F266 /* PBXTargetDependency */ = {
+		0E29EC6B5FB342573896425DE50BF681 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-AvatarCloudSDK_Example";
-			target = 2AB6F84276C5DA6521969FCC0D369B72 /* Pods-AvatarCloudSDK_Example */;
-			targetProxy = A3626CD4780A91CEC901F8C7896D63F3 /* PBXContainerItemProxy */;
+			name = "AvatarCloudSDK-AvatarCloudSDK";
+			target = D10B04E78A2E634BA649B577F60F9272 /* AvatarCloudSDK-AvatarCloudSDK */;
+			targetProxy = F5E436A4517AB5F16F8DC7A407053E3C /* PBXContainerItemProxy */;
 		};
-		E46AC0652177FF21A332C5BE7BF294F4 /* PBXTargetDependency */ = {
+		8B41CD8D0D68886F96B95EF9141C1D70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AvatarCloudSDK;
 			target = 410E84A5CB667566F10523AC38AE42AB /* AvatarCloudSDK */;
-			targetProxy = 9E13ABDAC4389B9F56C6D046CA5807BE /* PBXContainerItemProxy */;
+			targetProxy = 1A787CE6565B31EDDEAF3931CDECB656 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00F02EA1CA5E47CA0C1E696486CB5537 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF02304438A02C2B883444974EDAB2D /* AvatarCloudSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK.modulemap";
-				PRODUCT_MODULE_NAME = AvatarCloudSDK;
-				PRODUCT_NAME = AvatarCloudSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		22FB294680BA8A4F959FA14DE2B4E456 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D9ED525ED0672F14F8A340DB4F6964 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 8EC9575768C7DEB69FA8BFD59CCE6933 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -467,6 +351,49 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52EC43F5BD7D1EF6520681FD42F15AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D624F14A32B3E840ECD79596CE4202CA /* AvatarCloudSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6150E0BA7E880B53808BC6075F267A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A849BA5E1D92C08D0509299A1FC7ACD /* AvatarCloudSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB811D91F9154E47748EE4CC854375B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D624F14A32B3E840ECD79596CE4202CA /* AvatarCloudSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AvatarCloudSDK";
+				IBSC_MODULE = AvatarCloudSDK;
+				INFOPLIST_FILE = "Target Support Files/AvatarCloudSDK/ResourceBundle-AvatarCloudSDK-AvatarCloudSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AvatarCloudSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -525,49 +452,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		856FD24AEC2DFB683191DFA9DB8B0E6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74199C74EAA52284040C8BBD6C97DEE /* Pods-AvatarCloudSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		8658C576E4D10FC4A2E53E4F8AE77F16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 688D6A11BFD14955AB6C6D6F8411C3F2 /* Pods-AvatarCloudSDK_Example.release.xcconfig */;
+			baseConfigurationReference = B4AFA1061D47502FE4F9901D40E167EF /* Pods-AvatarCloudSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -599,35 +493,19 @@
 			};
 			name = Release;
 		};
-		B43B8375B21FFA80791807D40EA67CCD /* Release */ = {
+		BF32C0950A36A0875DD9558C73EAE873 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F8B172E124583F4BCBE39BC3F1D74A0 /* AvatarCloudSDK.release.xcconfig */;
+			baseConfigurationReference = 1A849BA5E1D92C08D0509299A1FC7ACD /* AvatarCloudSDK.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AvatarCloudSDK/AvatarCloudSDK.modulemap";
-				PRODUCT_MODULE_NAME = AvatarCloudSDK;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AvatarCloudSDK";
+				IBSC_MODULE = AvatarCloudSDK;
+				INFOPLIST_FILE = "Target Support Files/AvatarCloudSDK/ResourceBundle-AvatarCloudSDK-AvatarCloudSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = AvatarCloudSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -697,39 +575,6 @@
 			};
 			name = Debug;
 		};
-		F4E6BAFF0937951A0295F5A657D04109 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCB81228410684A1691DE90DAC494B47 /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -742,20 +587,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7666FF7891C9DB4E7F348A621F807E60 /* Build configuration list for PBXNativeTarget "AvatarCloudSDK" */ = {
+		BE78C1040DD8386ACBA9E63C27221A58 /* Build configuration list for PBXNativeTarget "AvatarCloudSDK-AvatarCloudSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00F02EA1CA5E47CA0C1E696486CB5537 /* Debug */,
-				B43B8375B21FFA80791807D40EA67CCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8DB62B38EBED25AE87AD00EBD419A38 /* Build configuration list for PBXNativeTarget "Pods-AvatarCloudSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4E6BAFF0937951A0295F5A657D04109 /* Debug */,
-				856FD24AEC2DFB683191DFA9DB8B0E6F /* Release */,
+				7AB811D91F9154E47748EE4CC854375B /* Debug */,
+				BF32C0950A36A0875DD9558C73EAE873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,6 +601,15 @@
 			buildConfigurations = (
 				22FB294680BA8A4F959FA14DE2B4E456 /* Debug */,
 				8658C576E4D10FC4A2E53E4F8AE77F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9E3002F5883DFDAF84293D040DD33A /* Build configuration list for PBXAggregateTarget "AvatarCloudSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EC43F5BD7D1EF6520681FD42F15AD7 /* Debug */,
+				6150E0BA7E880B53808BC6075F267A57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

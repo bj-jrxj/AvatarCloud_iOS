@@ -1,0 +1,6 @@
+framework module AvatarCloudSDK {
+  umbrella header "AvatarCloudSDK.h"
+
+  export *
+  module * { export * }
+}
