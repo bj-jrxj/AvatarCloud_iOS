@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059CD2A82B1D0730382FC7CA /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AvatarCloudSDK.podspec; path = ../AvatarCloudSDK.podspec; sourceTree = "<group>"; };
-		146D1F9D0D7F2D6221C43C45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		059CD2A82B1D0730382FC7CA /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AvatarCloudSDK.podspec; path = ../AvatarCloudSDK.podspec; sourceTree = "<group>"; };
+		146D1F9D0D7F2D6221C43C45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4EFAA02054A4D249E337D24A /* Pods-AvatarCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AvatarCloudSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarCloudSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		60C20FA556625CECE633130F /* Pods_AvatarCloudSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarCloudSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B759D272C54E6F2EFFF06FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B759D272C54E6F2EFFF06FEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF36F8D374C1CA2A86A9B640 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Example/Pods-AvatarCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,7 +185,6 @@
 				CF36F8D374C1CA2A86A9B640 /* Pods-AvatarCloudSDK_Example.debug.xcconfig */,
 				4EFAA02054A4D249E337D24A /* Pods-AvatarCloudSDK_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -466,6 +466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvatarCloudSDK/AvatarCloudSDK-Prefix.pch";
 				INFOPLIST_FILE = "AvatarCloudSDK/AvatarCloudSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvatarCloudSDK/AvatarCloudSDK-Prefix.pch";
 				INFOPLIST_FILE = "AvatarCloudSDK/AvatarCloudSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
