@@ -18,9 +18,10 @@
 
 ---
 ## 安装
----
+
 
 ### SDK集成
+
 
 #### [cocoaPods](https://cocoapods.org) 集成
 
@@ -45,6 +46,7 @@ pod install
 pod repo update
 ```
 
+
 #### 手动集成
   * 在demo工程路径下的`AvatarCloudSDK.framework`和资源文件`AvatarCloudSDK.bundle`复制到业务工程
   * 在工程的 Other Linker Flags 中添加 -ObjC 参数
@@ -53,7 +55,7 @@ pod repo update
 
 ---
 ## 使用
----
+
 
 #### 配置
 
@@ -66,6 +68,7 @@ pod repo update
 	
 [AvatarCloudSDKManager initWithClient_id:@"clientId" client_secret:@"clientSecret"];
 ```
+
 
 #### 调用
 
@@ -93,7 +96,4 @@ pod repo update
 ```
 
 * 更多高级功能配置请参考demo工程相关文档
-
-
-
 
