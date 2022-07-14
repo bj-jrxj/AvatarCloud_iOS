@@ -6,9 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/AvatarCloudSDK.svg?style=flat)](https://cocoapods.org/pods/AvatarCloudSDK)
 
 
-
 * **具体内测申请流程请访问官网: https://fc.faceface2.com**
-
 
 
 |SDK|下载地址|集成指引|
@@ -18,13 +16,14 @@
 
 
 
-### 安装
+
+## 安装
 
 ---
 
-#### SDK集成
+### SDK集成
 
-###### [cocoaPods](https://cocoapods.org) 集成
+#### [cocoaPods](https://cocoapods.org) 集成
 
 1.本地项目文件夹下，修改`Podfile`文件
 
@@ -47,14 +46,16 @@ pod install
 pod repo update
 ```
 
-###### 手动集成
+#### 手动集成
   * 在demo工程路径下的`AvatarCloudSDK.framework`和资源文件`AvatarCloudSDK.bundle`复制到业务工程
   * 在工程的 Other Linker Flags 中添加 -ObjC 参数
 
 
 
-### 使用
+## 使用
 ---
+
+#### 配置
 
 * 配置**appID** 和 **secretID**， `appID` 和 `secretID` 请在[官网](https://fc.faceface2.com)申请
 
@@ -66,7 +67,7 @@ pod repo update
 [AvatarCloudSDKManager initWithClient_id:@"clientId" client_secret:@"clientSecret"];
 ```
 
-* 调用
+#### 调用
 
 ```
 #import <AvatarCloudSDK/AvatarCloudSDK.h>
@@ -92,7 +93,6 @@ pod repo update
 ```
 
 * 更多高级功能配置请参考demo工程相关文档
-
 
 
 
