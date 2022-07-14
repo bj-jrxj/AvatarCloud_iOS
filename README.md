@@ -59,7 +59,7 @@ pod repo update
 
 #### 配置
 
-* 配置**appID** 和 **secretID**， `appID` 和 `secretID` 请在[官网](https://fc.faceface2.com)申请
+* 配置**clientId** 和 **clientSecret**， `clientId` 和 `clientSecret` 请在[官网](https://fc.faceface2.com)申请
 
 * 在工程的AppDelegate.m文件导入头文件，并初始化
 
@@ -81,7 +81,7 @@ pod repo update
 //设置sdk内部头像圆角尺寸
 [AvatarCloudSDKManager sharedInstance].cornerRadius = 24;
 
-//默认NO，设置YES时，cornerRadius无效
+//设置sdk内部圆形头像，默认NO，设置YES时，cornerRadius无效
 [AvatarCloudSDKManager sharedInstance].isCircle = NO;
 
 //获取生成的图片，返回对象类型UIImage
