@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AvatarCloudSDK/Classes/AvatarCloudSDK.framework/Headers/*'
-  s.vendored_frameworks = "AvatarCloudSDK/Classes/AvatarCloudSDK.framework"
+  s.source_files = 'AvatarCloudSDK/AvatarCloudSDK.framework/Headers/*'
+  s.vendored_frameworks = "AvatarCloudSDK/AvatarCloudSDK.framework"
   s.resource_bundles = {
-    'AvatarCloudSDK' => ['AvatarCloudSDK/Assets/AvatarCloudSDK.bundle']
+    'AvatarCloudSDK' => ['AvatarCloudSDK/AvatarCloudSDK.framework/AvatarCloudSDK.bundle']
   }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
