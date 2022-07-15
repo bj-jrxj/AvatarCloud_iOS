@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'AvatarCloudSDK'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'AvatarCloudSDK_iOS.'
   s.homepage         = 'https://github.com/bj-jrxj/AvatarCloud_iOS'
   s.description      = <<-DESC
