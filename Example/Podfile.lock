@@ -1,16 +1,16 @@
 PODS:
-  - AvatarCloudSDK (0.1.0)
+  - AvatarCloudSDK (0.1.1)
 
 DEPENDENCIES:
-  - AvatarCloudSDK
+  - AvatarCloudSDK (~> 0.1.1)
 
 SPEC REPOS:
   trunk:
     - AvatarCloudSDK
 
 SPEC CHECKSUMS:
-  AvatarCloudSDK: f1b2656800d5465cabfb7bc53cc2728ef5ea3e05
+  AvatarCloudSDK: b0f9fa84028642ccff1499edf2d4f20839ac0ffd
 
-PODFILE CHECKSUM: 88f3bc9a1dbfdf5834705226d63aefa3b4ee9a49
+PODFILE CHECKSUM: 3f925a9a08fd9a3a2fa7c586c63d55afb372c397
 
 COCOAPODS: 1.11.3
