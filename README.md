@@ -12,7 +12,7 @@
 
 ### [云头像平台](https://fc.faceface2.com)
 
-云头像平台提供海量免费原创IP头像,包含卡通、二次元、像素、写实等丰富多元的风格，实现自定义头像、智能生成头像、保存头像等独特功能。
+云头像平台提供海量免费原创IP头像，包含卡通、二次元、像素、写实等丰富多元的风格，实现自定义头像、智能生成头像、保存头像等独特功能。
 
 通过与国内知名影视、动画、潮玩等行业头部公司合作，创作出以IP形象为核心的头像，深受用户喜爱。已帮助众多知名央国企平台升级原创IP头像服务。
 
@@ -71,7 +71,7 @@ pod repo update
 
 #### 配置
 
-* 配置**appID** 和 **secretID**， `appID` 和 `secretID` 请在[官网](https://fc.faceface2.com)申请
+* 配置**clientId** 和 **clientSecret**， `clientId` 和 `clientSecret` 请在[官网](https://fc.faceface2.com)申请
 
 * 在工程的AppDelegate.m文件导入头文件，并初始化
 
