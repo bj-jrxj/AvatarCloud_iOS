@@ -4,6 +4,10 @@ platform :ios, '9.0'
 
 target 'AvatarCloudSDK_Example' do
   
-  pod 'AvatarCloudSDK', '~> 1.0.0'
+  pod 'AvatarCloudSDK', :path => '../'
+
+  target 'AvatarCloudSDK_Tests' do
+    inherit! :search_paths
+  end
 
 end

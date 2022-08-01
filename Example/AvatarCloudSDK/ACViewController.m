@@ -9,7 +9,11 @@
 #import "ACViewController.h"
 #import <AvatarCloudSDK/AvatarCloudSDK.h>
 
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
 @interface ACViewController ()
+
+@property (nonatomic, strong) UIImageView *avatarView;
 
 @end
 
@@ -19,13 +23,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
-    [self.view addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(click)]];
+    UIImageView *avatarImageView = [[UIImageView alloc] initWithFrame:CGRectMake((ScreenWidth - 200) / 2., 100, 200, 200)];
+    avatarImageView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:avatarImageView];
+    self.avatarView = avatarImageView;
+    avatarImageView.userInteractionEnabled = YES;
+    [avatarImageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickImage:)]];
 }
 
-- (void)click
+- (void)clickImage:(UIGestureRecognizer *)gesture
 {
     [[AvatarCloudSDKManager sharedInstance] initWithParentController:self animated:YES];
+    [[AvatarCloudSDKManager sharedInstance] getImage:^(UIImage * _Nonnull image) {
+        self.avatarView.image = image;
+    }];
 }
 
 - (void)didReceiveMemoryWarning

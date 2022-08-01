@@ -7,12 +7,17 @@
 //
 
 #import "ACAppDelegate.h"
+#import <AvatarCloudSDK/AvatarCloudSDK.h>
 
 @implementation ACAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [AvatarCloudSDKManager initWithClient_id:@"client_id" client_secret:@"client_secret" complete:^(NSDictionary * _Nonnull resultDic) {
+        
+    }];
+    
     return YES;
 }
 
