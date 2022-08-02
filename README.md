@@ -75,6 +75,8 @@ pod repo update
 
 * 在工程的AppDelegate.m文件导入头文件，并初始化
 
+* 在 info.plist 文件中添加一个子项目 App Transport Security Settings，然后在其中添加一个 key：Allow Arbitrary Loads，其值为YES。
+
 ```
 #import <AvatarCloudSDK/AvatarCloudSDK.h>
 	
