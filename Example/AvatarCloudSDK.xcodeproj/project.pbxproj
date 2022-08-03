@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059CD2A82B1D0730382FC7CA /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AvatarCloudSDK.podspec; path = ../AvatarCloudSDK.podspec; sourceTree = "<group>"; };
+		059CD2A82B1D0730382FC7CA /* AvatarCloudSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AvatarCloudSDK.podspec; path = ../AvatarCloudSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D1651522ABD7DB82349935F /* Pods_AvatarCloudSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvatarCloudSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D1F9D0D7F2D6221C43C45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2877E74578770EC95948896F /* Pods-AvatarCloudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvatarCloudSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AvatarCloudSDK_Tests/Pods-AvatarCloudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
