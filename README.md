@@ -33,7 +33,8 @@
 ![image](http://oss.faceface2.com/facecloud/pic/34612097-e78e-49b1-9347-2a2018fc95fe.png)
 ![image](http://oss.faceface2.com/facecloud/pic/5ae8db45-e2b5-49aa-9199-2b9f91a6f4ec.png)
 
-* **具体内测申请流程请访问官网: https://fc.faceface2.com**
+### 申请流程
+ 请访问官网: https://fc.faceface2.com
 
 
 |SDK|下载地址|集成指引|
